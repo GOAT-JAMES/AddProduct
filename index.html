@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product Form</title>
+    <link rel="stylesheet" href="css/site.css">
+    
+</head>
+<body>
+    <h1>Add Video Game</h1>
+
+    <div >
+        
+        <ul id="validation-summary">
+            
+        </ul>
+    
+    </div>
+
+    <form>
+        <label for="title">Title: </label>
+        <input id="title" type="text">
+        <br>
+
+        <label for="price">Price: </label>
+        <input id="price" type="text">
+        <br>
+
+
+        <label for="rating">Rating: </label>
+        <select id="rating">
+        <option value="">Please choose a rating</option>
+        <option value="E">Everyone</option>
+        <option value="T">Teen</option>
+        <option value="M">Mature</option>
+        </select>
+
+        <input type="checkbox" id="online">
+        <label for="online">Digital Only?</label>
+
+        <input type="button" value="Add Video Game Here">
+        
+        
+    </form>
+
+    <div id="display">
+        
+    </div>
+    
+    
+<script src="js/main.js"></script>
+</body>
+</html>
